@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🍳 RecipeHaven</div>
+    <p>Discover your next favorite meal</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#recipes-section">Recipes</a>
+    <a href="#fav-section">My Favorites</a>
+</nav>
+
+<section id="search-panel">
+    <div class="search-container">
+        <h2>What's in your kitchen?</h2>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search by ingredient (e.g. flour)...">
+            <button id="searchBtn">Find Recipes</button>
+        </div>
+        
+        <div id="category-filters">
+            <p>Filter by Category:</p>
+            <label><input type="checkbox" class="cat-check" value="Breakfast"> Breakfast</label>
+            <label><input type="checkbox" class="cat-check" value="Lunch"> Lunch</label>
+            <label><input type="checkbox" class="cat-check" value="Dessert"> Dessert</label>
+        </div>
+    </div>
+</section>
+
+<section id="recipes-section">
+    <h2 class="section-title">Fresh Recipes</h2>
+    <div id="recipeResults" class="recipe-grid">
+        </div>
+</section>
+
+<section id="fav-section">
+    <h2 class="section-title">Saved for Later</h2>
+    <div class="fav-container">
+        <ul id="favList">
+            </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Interactive Recipe Finder | Assignment 02 [cite: 2]</p>
+    <p>Contact: student@university.edu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
